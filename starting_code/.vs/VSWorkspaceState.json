@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\server",
+    "\\server\\src",
+    "\\shared",
+    "\\shared\\src",
+    "\\shared\\src\\protocol",
+    "\\shared\\src\\protocol\\Game",
+    "\\shared\\src\\protocol\\Lobby"
+  ],
+  "SelectedNode": "\\shared\\src\\protocol\\Lobby\\LobbyInfoUpdate.cs",
+  "PreviewInSolutionExplorer": false
+}
