@@ -5,17 +5,26 @@ using shared;
 
 public class GameFinished : ASerializable
 {
-    //this to serialize the board data and the player status (win or not), to later send them to their client
+    // Board data at the end of the game
     public TicTacToeBoardData boardData;
+
+    // Whether this player won
     public bool YesDadImWinnin;
+
+    // Whether the game ended in a draw
+    public bool IsDraw;
+
     public override void Serialize(Packet p)
     {
         p.Write(boardData);
         p.Write(YesDadImWinnin);
+        p.Write(IsDraw);
     }
+
     public override void Deserialize(Packet p)
     {
         boardData = p.Read<TicTacToeBoardData>();
         YesDadImWinnin = p.ReadBool();
+        IsDraw = p.ReadBool();
     }
 }

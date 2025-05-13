@@ -3,21 +3,29 @@
   "WorkspaceRootPath": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\lobby\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\game\\makemoveresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\game\\heartbeatrespond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\game\\heartbeatsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\server\\src\\rooms\\gameroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|solutionrelative:src\\rooms\\gameroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\server\\src\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|solutionrelative:src\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\model\\tictactoeboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\server\\src\\tcpgameserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|solutionrelative:src\\tcpgameserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\server\\src\\rooms\\gameroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|solutionrelative:src\\rooms\\gameroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\server\\src\\tictactoeboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|solutionrelative:src\\tictactoeboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\server\\src\\rooms\\lobbyroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -28,8 +36,13 @@
       "RelativeMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|solutionrelative:src\\rooms\\loginroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\server\\src\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68C5E3A8-A578-4205-9D42-76224DDEF1D2}|server.csproj|solutionrelative:src\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\endgame\\gamefinished.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\lobby\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\game\\heartbeatsend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\login\\playerjoinresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -44,9 +57,6 @@
       "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\endgame\\returntolobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\endgame\\gamefinished.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EDA2BBD1-04EA-40B5-A6DE-2B7C7DED5944}|..\\shared\\shared.csproj|e:\\unity\\networking\\a4_flic_flac_flo\\starting_code\\shared\\src\\model\\playerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -57,72 +67,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlayerNames.cs",
-              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Game\\PlayerNames.cs",
-              "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Game\\PlayerNames.cs",
-              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Game\\PlayerNames.cs",
-              "RelativeToolTip": "..\\shared\\src\\protocol\\Game\\PlayerNames.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:03:44.636Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ChatMessage.cs",
-              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Lobby\\ChatMessage.cs",
-              "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Lobby\\ChatMessage.cs",
-              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Lobby\\ChatMessage.cs",
-              "RelativeToolTip": "..\\shared\\src\\protocol\\Lobby\\ChatMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MakeMoveResult.cs",
+              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Game\\MakeMoveResult.cs",
+              "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Game\\MakeMoveResult.cs",
+              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Game\\MakeMoveResult.cs",
+              "RelativeToolTip": "..\\shared\\src\\protocol\\Game\\MakeMoveResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:10:03.359Z",
+              "WhenOpened": "2025-05-12T22:19:59.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlayerJoinResponse.cs",
-              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Login\\PlayerJoinResponse.cs",
-              "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Login\\PlayerJoinResponse.cs",
-              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Login\\PlayerJoinResponse.cs",
-              "RelativeToolTip": "..\\shared\\src\\protocol\\Login\\PlayerJoinResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TicTacToeBoardData.cs",
+              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\model\\TicTacToeBoardData.cs",
+              "RelativeDocumentMoniker": "..\\shared\\src\\model\\TicTacToeBoardData.cs",
+              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\model\\TicTacToeBoardData.cs",
+              "RelativeToolTip": "..\\shared\\src\\model\\TicTacToeBoardData.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwH8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:08:30.459Z"
+              "WhenOpened": "2025-05-12T21:50:57.992Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "TicTacToeBoard.cs",
+              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\TicTacToeBoard.cs",
+              "RelativeDocumentMoniker": "src\\TicTacToeBoard.cs",
+              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\TicTacToeBoard.cs",
+              "RelativeToolTip": "src\\TicTacToeBoard.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:32:50.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameRoom.cs",
+              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\rooms\\GameRoom.cs",
+              "RelativeDocumentMoniker": "src\\rooms\\GameRoom.cs",
+              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\rooms\\GameRoom.cs",
+              "RelativeToolTip": "src\\rooms\\GameRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:52:44.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LobbyRoom.cs",
               "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\rooms\\LobbyRoom.cs",
               "RelativeDocumentMoniker": "src\\rooms\\LobbyRoom.cs",
               "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\rooms\\LobbyRoom.cs",
               "RelativeToolTip": "src\\rooms\\LobbyRoom.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAswEwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAmwG0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:31:55.145Z"
+              "WhenOpened": "2025-05-12T16:31:55.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TCPGameServer.cs",
               "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\TCPGameServer.cs",
               "RelativeDocumentMoniker": "src\\TCPGameServer.cs",
               "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\TCPGameServer.cs",
               "RelativeToolTip": "src\\TCPGameServer.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAUwLgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwEsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:58:11.53Z"
+              "WhenOpened": "2025-05-12T15:58:11.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LoginRoom.cs",
               "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\rooms\\LoginRoom.cs",
               "RelativeDocumentMoniker": "src\\rooms\\LoginRoom.cs",
@@ -130,19 +157,21 @@
               "RelativeToolTip": "src\\rooms\\LoginRoom.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwEIAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:47:42.576Z"
+              "WhenOpened": "2025-05-12T16:47:42.576Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameRoom.cs",
-              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\rooms\\GameRoom.cs",
-              "RelativeDocumentMoniker": "src\\rooms\\GameRoom.cs",
-              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\rooms\\GameRoom.cs",
-              "RelativeToolTip": "src\\rooms\\GameRoom.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwGMAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "GameFinished.cs",
+              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Endgame\\GameFinished.cs",
+              "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Endgame\\GameFinished.cs",
+              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Endgame\\GameFinished.cs",
+              "RelativeToolTip": "..\\shared\\src\\protocol\\Endgame\\GameFinished.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:52:44.082Z"
+              "WhenOpened": "2025-05-12T15:06:08.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -154,11 +183,25 @@
               "RelativeToolTip": "..\\shared\\src\\protocol\\Game\\HeartBeatRespond.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:14:13.226Z"
+              "WhenOpened": "2025-05-12T14:14:13.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Room.cs",
+              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\Room.cs",
+              "RelativeDocumentMoniker": "src\\Room.cs",
+              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\Room.cs",
+              "RelativeToolTip": "src\\Room.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwIMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T18:13:23.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "HeartBeatSend.cs",
               "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Game\\HeartBeatSend.cs",
               "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Game\\HeartBeatSend.cs",
@@ -170,19 +213,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Room.cs",
-              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\Room.cs",
-              "RelativeDocumentMoniker": "src\\Room.cs",
-              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\server\\src\\Room.cs",
-              "RelativeToolTip": "src\\Room.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAcwH8AAAA0AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Lobby\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Lobby\\ChatMessage.cs",
+              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Lobby\\ChatMessage.cs",
+              "RelativeToolTip": "..\\shared\\src\\protocol\\Lobby\\ChatMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T18:13:23.886Z"
+              "WhenOpened": "2025-05-12T15:10:03.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
+              "Title": "PlayerJoinResponse.cs",
+              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Login\\PlayerJoinResponse.cs",
+              "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Login\\PlayerJoinResponse.cs",
+              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Login\\PlayerJoinResponse.cs",
+              "RelativeToolTip": "..\\shared\\src\\protocol\\Login\\PlayerJoinResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:08:30.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerNames.cs",
+              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Game\\PlayerNames.cs",
+              "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Game\\PlayerNames.cs",
+              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Game\\PlayerNames.cs",
+              "RelativeToolTip": "..\\shared\\src\\protocol\\Game\\PlayerNames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:03:44.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Concede.cs",
               "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Game\\Concede.cs",
               "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Game\\Concede.cs",
@@ -194,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ReturnToLobby.cs",
               "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Endgame\\ReturnToLobby.cs",
               "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Endgame\\ReturnToLobby.cs",
@@ -206,19 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GameFinished.cs",
-              "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Endgame\\GameFinished.cs",
-              "RelativeDocumentMoniker": "..\\shared\\src\\protocol\\Endgame\\GameFinished.cs",
-              "ToolTip": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\protocol\\Endgame\\GameFinished.cs",
-              "RelativeToolTip": "..\\shared\\src\\protocol\\Endgame\\GameFinished.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:06:08.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "PlayerInfo.cs",
               "DocumentMoniker": "E:\\Unity\\Networking\\A4_flic_flac_flo\\starting_code\\shared\\src\\model\\PlayerInfo.cs",
               "RelativeDocumentMoniker": "..\\shared\\src\\model\\PlayerInfo.cs",

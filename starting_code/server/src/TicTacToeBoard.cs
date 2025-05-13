@@ -1,45 +1,51 @@
-﻿using shared;
+﻿
+using shared;
 
 namespace server
 {
     /**
-     * This class wraps the actual board we are playing on.
-     * 
-     * Normally both logic and data would be in a single class (e.g. something like TicTacToeModel).
-     * In this case I chose to split them up: we have one class TicTacToeBoard that wraps an instance
-     * of the actual board data. This way we have an object we can serialize to clients (the board data) 
-     * and one class that actually manages the logic of manipulating the board.
-     * 
-     * In this specific instance that logic is almost non existent, because I tried to keep the demo
-     * as simple as possible, so we can only make a move. In an actual game, this class would implement
-     * methods such as GetValidMoves(), HasWon(), GetCurrentPlayer() etc.
+     * Server-side wrapper around TicTacToeBoardData.
+     * Implements game logic for TicTacToe.
      */
     public class TicTacToeBoard
     {
-        private TicTacToeBoardData _board = new TicTacToeBoardData();
+        private TicTacToeBoardData _boardData;
 
-        /**
-         * @param pMove     a number from 0-8 that indicates the cell we want to change
-         * @param pPlayer   1 or 2 to indicate which player made the move
-         */
-        public void MakeMove (int pMove, int pPlayer)
+        public TicTacToeBoard()
         {
-            _board.board[pMove] = pPlayer;
+            _boardData = new TicTacToeBoardData();
+            _boardData.currentTurn = 1; // Player 1 starts
+        }
 
-            //we could also check which row and column if we wanted to:
-            int columns = 3;
-            int row = pMove / columns;
-            int column = pMove % columns;
-            Log.LogInfo($"Player {pPlayer} made a move in cell ({column},{row})", this);
+        public TicTacToeBoardData GetBoardData()
+        {
+            return _boardData;
         }
 
         /**
-         * Return the inner board data state so we can send it to a client.
+         * Try to make a move for the specified player.
+         * Returns true if the move was successful.
          */
-        public TicTacToeBoardData GetBoardData()
+        public bool TryMakeMove(int cellIndex, int playerNumber)
         {
-            //it would be more academically correct if we would clone this object before returning it, but anyway.
-            return _board;
+            return _boardData.TryMakeMove(cellIndex, playerNumber);
+        }
+
+        /**
+         * Make a move for the specified player.
+         * This method doesn't check if it's the player's turn,
+         * and is kept for compatibility with existing code.
+         */
+        public void MakeMove(int cellIndex, int playerNumber)
+        {
+            // Check if cell is already occupied
+            if (cellIndex < 0 || cellIndex >= 9 || _boardData.board[cellIndex] != 0)
+            {
+                return;
+            }
+
+            _boardData.board[cellIndex] = playerNumber;
+            _boardData.SwitchTurn();
         }
     }
 }

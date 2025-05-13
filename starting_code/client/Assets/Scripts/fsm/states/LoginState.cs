@@ -47,6 +47,11 @@ public class LoginState : ApplicationStateWithView<LoginView>
             return;
         }
 
+        // Save username to PlayerPrefs so it can be accessed by other states
+        PlayerPrefs.SetString("Username", view.userName);
+        PlayerPrefs.Save();
+        Debug.Log("Saved username to PlayerPrefs: " + view.userName);
+
         //connect to the server and on success try to join the lobby
         if (fsm.channel.Connect(_serverIP, _serverPort))
         {
@@ -87,11 +92,10 @@ public class LoginState : ApplicationStateWithView<LoginView>
     {
         //Dont do anything with this info at the moment, just leave it to the RoomJoinedEvent
         //We could handle duplicate name messages, get player info etc here
-        /*
-        if (pMessage.result == PlayerJoinResponse.State.ACCEPTED)
+        if (pMessage.result == PlayerJoinResponse.RequestResult.Name_Is_Already_Used)
         {
+            view.TextConnectResults = "Name already taken. Please choose another name.";
         }
-        */
     }
 
     private void handleRoomJoinedEvent (RoomJoinedEvent pMessage)
@@ -103,4 +107,3 @@ public class LoginState : ApplicationStateWithView<LoginView>
     }
 
 }
-
